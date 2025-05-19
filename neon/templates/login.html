@@ -23,7 +23,7 @@
 			{% endif %}
 
 			{% with form = Forms.auth.LoginForm() %}
-			<form method="post" accept-charset="utf-8" autocomplete="off">
+			<form method="post" accept-charset="utf-8" autocomplete="off" class="usernameform" id="usernameform">
 				<div class="form-group">
 					<b>{{ form.name.label }}</b>
 					{{ form.name(class="form-control", value=name) }}
