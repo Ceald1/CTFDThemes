@@ -47,8 +47,21 @@ html, body {
         /* Optional: smooth background */
         transition: opacity 0.3s;
 }
+:root {
+  --halo-bg:      #181a23;
+  --halo-glow1:   #84f7ff;
+  --halo-glow2:   #b388ff;
+  --halo-glow3:   #ffe2fe;
+  --halo-accent1: #ffd166;
+  --halo-accent2: #f48fb1;
+  --halo-accent3: #8cffda;
+  --halo-text:    #eaf6ff;
+  --halo-text2:   #bfc9d9;
+  --halo-btn:     #84f7ff;
+}
 body {
   /* color: #39ff14; */
+  color: var(--halo-text);
   background: transparent; /* Let Vanta.js show through */
   font-family: 'Orbitron', 'Segoe UI', monospace;
 }
